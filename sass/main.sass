@@ -24,9 +24,13 @@
     color: #0F3780
     font-size: 20px
     font-weight: 800
-.phone-icon
-    position: absolute
-    left: 200px
+    &::before
+        content: ''
+        background-image: url('/icons/call.svg')
+        width: 26px
+        height: 26px
+        position: absolute
+        left: -30px
 .request-call
     text-decoration: none
     color: #0EB4DA
@@ -93,8 +97,6 @@
 .welcome
     background: #0F3780
     display: flex
-    &-descr
-        margin-top: 104px
     &-title
         font-size: 68px
         color: white
@@ -366,6 +368,7 @@ footer
     color: #0F3780
 .calc-descr
     font-size: 20px
+    display: block
 .slider-title
     color: #0F3780
     font-weight: 600
