@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -8,52 +8,45 @@
     <title>PFK Tajikistan</title>
     <link rel="icon" href="icons/logo.svg" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-    <header class="my-4 pl-20">
+    <header class="my-4">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2">
-                    <div class="header-logo d-flex align-items-center logo">
+                    <div class="d-flex align-items-center">
                         <img src="icons/logo.svg" alt="PKF Logo">
                         <span class="ml-4 country">Tajikistan</span>
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="contact-box d-flex justify-content-end align-items-center">
-                        <div class="row">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="row align-items">
                             <div class="col-lg-6">
-                                <div class="contact-info">
-                                    <img src="icons/call.svg" alt="Phone Icon" class="phone-icon">
-                                    <a href="tel:+992446252227" class="phone-number">+992 44-625-22-27</a>
-                                    <br>
-                                    <a href="#" class="request-call">ЗАКАЗАТЬ ЗВОНОК</a>
-                                </div>
+                                <a href="tel:+992446252227" class="phone-number d-block text-right"> <i class="bi bi-telephone-fill"></i> +992 44-625-22-27</a>
+                                <a href="#" class="request-call text-uppercase text-decoration-none d-block text-right">ЗАКАЗАТЬ ЗВОНОК</a>
                             </div>
                             <div class="col-lg-6">
-                                <div class="search-info">
-                                    <input type="text" placeholder="">
-                                    <button class="search-icon"> 
-                                            <img src="icons/search__bar.svg"  alt="search-icon">
-                                        </button>
+                                <div class="input-group  search-box">
+                                    <input type="text" class="form-control bg-transparent form-control-lg border-0" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text cursor-pointer bg-transparent border-0" id="basic-addon2"><i class="text-corp-2 bi bi-search pr-2 search-icon"></i></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="col-lg-2">
-                <div class="btn-container d-flex align-items-center">
-                    <button class="btn btn-primary ml-3">ОСТАВИТЬ ЗАЯВКУ</button>
+                <div class="col-lg-2">
+                    <div class="btn-container h-100 d-flex align-items-center">
+                        <button class="btn h-100 btn-primary ml-3">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
                 </div>
             </div>
-
-        </div>
-        </div>
         </div>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -70,7 +63,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Услуги
                 </a>
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
@@ -79,7 +72,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Вакансии
                 </a>
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
@@ -94,10 +87,9 @@
                         <a class="nav-link" href="#">Контакты</a>
                     </li>
                 </ul>
-                <ul class="list-inline ml-auto mb-0">
+                <ul class="list-inline ml-auto mb-0 mr-3">
                     <li class="list-inline-item"><a class="language-link active" href="#">Русский</a></li>
-                    <span class="separator"></span>
-                    <li class="list-inline-item"><a class="language-link inactive-link" href="#">English</a></li>
+                    <li class="list-inline-item"><a class="language-link text-muted" href="#">English</a></li>
                 </ul>
             </div>
         </div>
@@ -115,22 +107,20 @@
                         </p>
                         <a href="#" class="welcome-btn">Узнать больше</a>
                     </div>
-
                 </div>
                 <div class="col-lg-7">
                     <div class="welcome-img">
                         <img src="img/flag.png" alt="tajikistan__flag">
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
     <section class="about">
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid pr-0">
+            <div class="row mr-0">
                 <div class="col-lg-6">
-                    <div class="about-descr">
+                    <div class="about-descr h-100 d-flex flex-column justify-content-center align-items-start">
                         <h4 class="text-corp">
                             О НАС
                         </h4>
@@ -139,25 +129,28 @@
                             <br><br> Компания представляет собой команду молодых, целеустремленных профессионалов со значительным опытом работы в сфере аудита и консалтинга.
                             <br><br> Компания предоставляет аудиторские и консалтинговые услуги в различных отраслях для местных, иностранных и международных организаций.
                             <br><br> Управляющий партнёр ООО «ПКФ Таджикистан» Сироджиддин Каримов
-
                         </p>
                     </div>
-
                 </div>
                 <div class="col-lg-6 pr-0">
-                    <div class="about-img">
-                        <img src="img/person.png" alt="photo_of_company_director">
+                    <div class="about-img h-100">
+                        <img src="img/person.png" class="w-100 h-100 img-fluid" alt="photo_of_company_director">
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <section class="services">
         <div class="container-fluid">
-            <div class="section-header">
-                <h4 class="text-corp">Услуги и решения</h4>
-                <a href="#" class="section-link"> Все услуги</a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="text-corp">Услуги и решения</h4>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-end">
+                        <a href="#" class="section-link"> Все услуги</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="slider">
@@ -200,19 +193,17 @@
                 </div>
             </div>
         </div>
-        </div>
-        </div>
     </section>
     <section class="public">
         <div class="container-fluid">
-            <div class="row">
-                <h4 class="text-corp ml-3">Публикации</h4>
-                <div class="card-slider">
+            <h4 class="text-corp">Публикации</h4>
+            <div class="slider">
+                <div class="row">
                     <button class="arrow left-arrow">&#8249;</button>
                     <div class="col-lg-4">
                         <div class="card public-card public-card-bg-blue">
                             <div class="image-container">
-                                <img src="img/public__1.png" class="card-img-top" />
+                                <img src="img/public__1.png" class="card-img-top" alt="section-img">
                                 <div class="after after-blue"></div>
                             </div>
                             <div class="card-body">
@@ -221,11 +212,10 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-4">
                         <div class="card public-card public-card-bg-ocean">
                             <div class="image-container">
-                                <img src="img/public__2.png" class="card-img-top" />
+                                <img src="img/public__2.png" class="card-img-top" alt="section-img">
                                 <div class="after after-ocean"></div>
                             </div>
                             <div class="card-body">
@@ -233,15 +223,13 @@
                                 <a href="#" class="btn btn-primary card-link">узнать больше</a>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-4">
                         <div class="card public-card public-card-bg-violet">
                             <div class="image-container">
-                                <img src="img/public__3.png" class="card-img-top" />
+                                <img src="img/public__3.png" class="card-img-top" alt="section-img">
                                 <div class="after after-violet"></div>
                             </div>
-
                             <div class="card-body">
                                 <p class="card-text">PKF International Worldwide Tax Guide 2019-20</p>
                                 <a href="#" class="btn btn-primary card-link">узнать больше</a>
@@ -251,56 +239,60 @@
                     <button class="arrow right-arrow">&#8250;</button>
                 </div>
             </div>
+        </div>
     </section>
     <section class="news">
         <div class="container-fluid">
-            <div class="section-header">
-                <h4 class="text-corp text-white">Новости</h4>
-                <a href="#" class="section-link"> Все новости</a>
-            </div>
             <div class="row">
-                <div class="news-cards">
-                    <div class="col-lg-4">
-                        <div class="news-card">
-                            <p class="name">Аудит</p>
-                            <h5 class="cards-title">
-                                PKF International Worldwide Tax Guide 2019-20
-                            </h5>
-                            <p class="cards-descr">
-                                The PKF Worldwide Tax Guide 2019/20 (WWTG) is an annual publication that provides an overview of the taxation and business regulation regimes of the world's...
-                            </p>
-                            <img src="img/news__1.png" alt="" class="cards-img">
-                        </div>
+                <div class="col-lg-6">
+                    <h4 class="text-corp text-white">Новости</h4>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-end">
+                        <a href="#" class="section-link"> Все новости</a>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="news-card">
-                            <p class="name">налоги</p>
-                            <h5 class="cards-title">
-                                Модифицированное аудиторское заключение в условиях коронавируса
-                            </h5>
-                            <p class="cards-descr">
-                                В чем точно нельзя упрекнуть разработчиков международных стандартов аудита, так это в отсутствии разъяснений касательно проведения аудиторских про...
-                            </p>
-                            <img src="img/news__2.png" alt="" class="cards-img">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="news-card">
-                            <p class="name">право</p>
-                            <h5 class="cards-title">
-                                IFRS 16 - Пример учета аренды с использованием поправок к IFRS 16...
-                            </h5>
-                            <p class="cards-descr">
-                                Чтобы сгладить экономические последствия пандемии COVID-19, Совет по МСФО принял поправки к IFRS 16, упрощающие учет концессии по аренде. Рассмотрим п...
-                            </p>
-                            <img src="img/news__3.png" alt="" class="cards-img">
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <p class="name">Аудит</p>
+                        <h5 class="cards-title">
+                            PKF International Worldwide Tax Guide 2019-20
+                        </h5>
+                        <p class="cards-descr">
+                            The PKF Worldwide Tax Guide 2019/20 (WWTG) is an annual publication that provides an overview of the taxation and business regulation regimes of the world's...
+                        </p>
+                        <img src="img/news__1.png" alt="" class="cards-img">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <p class="name">налоги</p>
+                        <h5 class="cards-title">
+                            Модифицированное аудиторское заключение в условиях коронавируса
+                        </h5>
+                        <p class="cards-descr">
+                            В чем точно нельзя упрекнуть разработчиков международных стандартов аудита, так это в отсутствии разъяснений касательно проведения аудиторских про...
+                        </p>
+                        <img src="img/news__2.png" alt="" class="cards-img">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <p class="name">право</p>
+                        <h5 class="cards-title">
+                            IFRS 16 - Пример учета аренды с использованием поправок к IFRS 16...
+                        </h5>
+                        <p class="cards-descr">
+                            Чтобы сгладить экономические последствия пандемии COVID-19, Совет по МСФО принял поправки к IFRS 16, упрощающие учет концессии по аренде. Рассмотрим п...
+                        </p>
+                        <img src="img/news__3.png" alt="" class="cards-img">
+                    </div>
+                </div>
 
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container-fluid">
@@ -344,38 +336,41 @@
                         <li><a href="#">оценка</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="social-container">
                         <h5 class="footer-title">
                             связаться с нами
                         </h5>
-                        <ul class="list-unstyled">
-                            <li class="social-item-phone">
-                                <a href="tel:+992446252227" class="social-link"> +992 44-625-22-27</a>
+                        <ul class="list-unstyled w-70">
+                            <li class="social-item d-flex align-items-center">
+                                <i class="icon-custom bi bi-telephone-fill"></i>
+                                <a href="tel:+992446252227" class="social-link">  +992 44-625-22-27</a>
                             </li>
-                            <li class="social-item-mail"><a href="mailto:info@pkf.tj" class="social-link">info@pkf.tj</a></li>
-                            <li class="social-item-location"><a href="#" class="social-link">г. Душанбе, 734025, Республика Таджикистан, улица Бохтар 37/1, Бизнес центр "Бохтар", 7-этаж, офис №705</a></li>
+                            <li class="social-item d-flex align-items-center">
+                                <i class="icon-custom bi bi-envelope-fill"></i>
+                                <a href="mailto:info@pkf.tj" class="social-link"> info@pkf.tj</a>
+                            </li>
+                            <li class="social-item d-flex"><i class="icon-custom bi bi-geo-alt-fill"></i><a href="#" class="social-link">  г. Душанбе, 734025, Республика Таджикистан, улица Бохтар 37/1, Бизнес центр "Бохтар", 7-этаж, офис №705</a></li>
                         </ul>
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <img src="icons/facebook.svg" alt="facebook-icon">
+                                    <i class="icon-custom bi bi-facebook"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <img src="icons/inst.svg" alt="instagram-icon">
+                                    <i class="icon-custom bi bi-instagram"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <img src="icons/linked__in.svg" alt="linked-in-icon">
+                                    <i class="icon-custom bi bi-linkedin"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
